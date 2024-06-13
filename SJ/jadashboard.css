@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(133, 49, 169, 0.75), rgba(6, 65, 148, 0.75)), url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 300px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.dashboard-container {
+    width: 85%;
+    margin: auto;
+    padding: 20px 0; /* Adjusted padding to remove wasted space */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: linear-gradient(rgba(133, 49, 169, 0.75), rgba(6, 65, 148, 0.75));
+}
+
+.tabs {
+    display: flex;
+    margin-top: 0; /* Removed margin to make tabs closer to the top */
+    width: 100%;
+}
+
+.tabs button {
+    flex: 1;
+    padding: 15px 20px;
+    margin-right: 10px;
+    border: none;
+    background: transparent;
+    color: white;
+    text-decoration: none; 
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.tabs button.active {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.dashboard-content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.add-files-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.add-files-button button {
+    padding: 10px 20px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add-files-button button span {
+    margin-right: 5px;
+}
+
+span {
+    background: #9289f4;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}
+.calendar {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.calendar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.month-year {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.day {
+    text-align: center;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.calendar-grid .day-cell {
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.calendar-grid .selected-day {
+    background-color: #9289f4;
+    color: white;
+}
+
+.hearings {
+    margin-top: 20px;
+}
+
+.selected-date {
+    font-weight: bold;
+    color: white;
+}
+
+.hearings-list {
+    margin-top: 10px;
+}
+
+.create-hearing {
+    margin-top: 20px;
+}
+
+.create-hearing h4 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.create-hearing input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.create-hearing button[type="submit"] {
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: #9289f4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.create-hearing button[type="submit"]:hover {
+    background-color: #776be0;
+}
+
+/* Existing CSS styles for the remaining elements */

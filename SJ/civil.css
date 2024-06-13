@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(133, 49, 169, 0.75), rgba(6, 65, 148, 0.75)), url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 300px;
+    cursor: pointer;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+form h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+form label {
+    color: white;
+    display: block;
+    margin-top: 10px;
+}
+
+form input,
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: rgba(133, 49, 169, 0.3);
+    color: white;
+    border: none;
+    margin-bottom: 15px;
+}
+
+form input[type="submit"] {
+    background-color: blueviolet;
+    color: azure;
+    cursor: pointer;
+}
+
+form small {
+    color: white;
+}
+
+select option {
+    background-color: rgba(133, 49, 169, 0.3);
+    color: white;
+}

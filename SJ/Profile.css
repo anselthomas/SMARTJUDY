@@ -1,0 +1,122 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(70, 70, 73, 0.3);
+  padding: 40px;
+  border-radius: 10px;
+  color: white;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+
+}
+
+/* Banner styles */
+.banner {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(133, 49, 169, 0.75), rgba(6, 65, 148, 0.75)), url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Navbar styles */
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 300px;
+  cursor: pointer;
+}
+
+/* Update button styles */
+.btn123 {
+  color: rgb(255, 255, 255);
+  border-radius: 40px;
+  padding: 10px 30px;
+  background-color: rgb(116, 69, 160);
+  border: none;
+  transition-duration: 0.3s;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.btn123:hover {
+  color: black;
+}
+
+/* Form styles */
+.form-group {
+  color: rgb(233, 222, 222);
+  text-shadow: #555;
+}
+
+.mb-5 {
+  text-align: center;
+  color: cadetblue;
+}
+
+.form-control {
+  color: #555;
+}
+
+/* Profile card styles */
+.profile-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 0 auto 15px;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profile-info {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}

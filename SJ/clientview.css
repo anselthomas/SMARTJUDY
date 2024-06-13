@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(133, 49, 169, 0.75), rgba(6, 65, 148, 0.75)), url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 300px;
+    cursor: pointer;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #000; /* Add blackline segregation between columns */
+}
+
+thead {
+    background-color: #3a0954;
+    color: white; /* Change the text color for the header */
+}
+
+tbody tr {
+    background-color: transparent;
+}
+
+tbody tr:hover {
+    background-color: #892eaa;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* New styles for the "Cases" table */
+table {
+    border: 2px solid #0b0b0b;
+}
+
+th {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td {
+    font-size: 16px;
+}
+
+/* Center the "Cases" table on the page */
+.container {
+    display: flex;
+    justify-content: center;
+}

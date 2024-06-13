@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(133, 49, 169, 0.75), rgba(6, 65, 148, 0.75)), url(background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 300px;
+  cursor: pointer;
+}
+
+.options {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.options span {
+  margin-left: 15px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.options span:hover {
+  color: #FFFACD;
+}
+
+.center-buttons {
+  text-align: center;
+}
+
+.center-buttons a {
+  text-decoration: none;
+}
+
+.center-buttons button {
+  padding: 40px 80px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 65px;
+  background-color: #8A2BE2;
+  color: #FFF;
+  cursor: pointer;
+  margin: 15px;
+  transition: background-color 0.3s;
+}
+
+.center-buttons button:hover {
+  background-color: #9932CC;
+}
+
+.center-buttons a:hover button {
+  background-color: #9932CC;
+}
+
