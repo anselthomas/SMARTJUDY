@@ -1,0 +1,165 @@
+.description {
+    margin-top: 10px;
+    padding: 60px 9px; /* Increase the padding values as needed */
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+  }
+  
+  
+    .banner {
+      width: 100%;
+      min-height: 100vh;
+      background-image: linear-gradient(rgba(133, 49, 169, 0.75), rgba(6, 65, 148, 0.75)), url(background.jpg);
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      border: black; /* Add this line */
+    }
+  
+    .navbar {
+      width: 85%;
+      margin: auto;
+      padding: 35px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .navbar ul {
+      list-style: none;
+      display: flex;
+    }
+  
+    .navbar ul li {
+      margin: 0 20px;
+    }
+  
+    .navbar ul li a {
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+    }
+  
+    .logo {
+      width: 300px;
+      cursor: pointer;
+    }
+  
+    .submit-button {
+      position: absolute;
+      top: 50%;
+      display:inline-block;
+      margin: auto;
+      background-color: rgba(6, 2, 1, 0.3);
+      border: none;
+      color: white;
+      font-size: 14px;
+      padding: 10px 15px;
+      cursor: pointer;
+      text-align: center;
+      transition-duration: 0.4s;
+    }
+  
+    .submit-button{
+      background-color: blueviolet;
+      color: azure;
+    }
+    select {
+      width: 200px;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 4px;
+      background-color:rgba(133, 49, 169, 0.3);
+      color: white;
+    }
+  
+    select option {
+      background-color:rgba(133, 49, 169, 20);
+      color: white;
+    }
+    .cc{
+      text-align:left;
+      margin-left: 20px;
+      color: white;
+      width: 50%;
+      
+      
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .profile-card {
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 20px;
+        max-width: 300px;
+        text-align: center;
+    }
+    .profile-pic {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin: 0 auto 15px;
+    }
+    .profile-name {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .profile-info {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 15px;
+    }
+    .profile-button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+  .q123456 {
+    padding: 200px , 180px;
+    width: fit-content;
+    background-color:rgba(72, 70, 73, 0.3);
+ 
+    
+  }
+  .form-group{
+    color:rgb(233, 222, 222);
+    text-shadow: #555;
+    
+  }
+  .mb-5{
+    text-align: center;
+    color: cadetblue;
+  }
+  .form-control{
+    color: #555;
+  }
+  .btn123{
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 10px 30px;
+    background-color:rgb(116, 69, 160);
+    border: #fff;
+    transition-duration: o.3s;
+    font-size: 16px;
+    margin:5px;
+  }
+  .btn123:hover{
+    color:black;
+
+  }

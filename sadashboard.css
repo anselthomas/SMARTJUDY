@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(133, 49, 169, 0.75), rgba(6, 65, 148, 0.75)), url(background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 300px;
+  cursor: pointer;
+}
+
+/* Styles for the dashboard container and tabs */
+.dashboard-container {
+  width: 80%;
+  margin: 50px auto;
+  background-color: transparent; /* Make the container transparent */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: black; /* Set the text color to black */
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tabs a {
+  padding: 10px 20px;
+  border: none;
+  background-color: #9933cc; /* Set the button color to purple */
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none; /* Remove underline for links */
+  cursor: pointer;
+   /* Add rounded edges to the button */
+}
+
+.tabs a.active {
+  background-color: #800080; /* Set the active button color to a darker shade of purple */
+}
+
+.list {
+  display: block;
+  margin-top: 30px;
+}
+
+.list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.list table th,
+.list table td {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.list table th {
+  background-color: None ; /* Set the table header color to purple */
+  color: #ffffff;
+}
+
+.list table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.add-files-button {
+  margin-top: 20px;
+}
+
+.add-files-button button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #9933cc; /* Set the button color to purple */
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  border-radius: 10px; /* Add rounded edges to the button */
+}
+
+.add-files-button button span {
+  margin-right: 5px;
+}

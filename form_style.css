@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    border: 5px solid black;
+    width: 950px;
+    height: 600px;
+}
+
+.form-box {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+
+.form-title {
+    font-size: 25px;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+form {
+    /* Add your form styling here */
+}
+
+/* Additional styles for form elements can be added as needed */
+
+.awDiv {
+    background-color: #CCCCFF;
+    color: #000033;
+    margin-left: 5px;
+    font-size: 10pt;
+}
+
+.awSpan2 {
+    margin-left: 20px;
+    width: 50px;
+    font-weight: bold;
+}
+
+.awSpan1 {
+    margin-left: 20px;
+    width: 10px;
+    font-weight: bold;
+}
