@@ -21,7 +21,7 @@ SmartJudy is a **comprehensive case management system** designed for **law firms
 ### 1️⃣ Clone the Repository
 
 ```sh
-git clone https://github.com/anselkthomas/SmartJudy.git
+git clone https://github.com/anselthomas/SmartJudy.git
 cd SmartJudy
 ```
 
